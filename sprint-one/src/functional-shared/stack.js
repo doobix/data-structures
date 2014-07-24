@@ -3,7 +3,6 @@ var makeStack = function() {
   // but try not not reference your old code in writing the new style.
   var obj = {totalSize:0, storage:{}};
   _.extend(obj, stackMethods);
-
   return obj;
 };
 
